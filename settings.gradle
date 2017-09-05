@@ -1,0 +1,4 @@
+rootProject.name = 'gradledemo'
+include 'gradlespringboot'
+include 'gradleentity'
+
