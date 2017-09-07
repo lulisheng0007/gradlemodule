@@ -1,22 +1,16 @@
 package entity;
 
 public class CustomerEntity {
+    /**
+     * 用户id
+     */
     private int id;
+    /**
+     * 用户年龄
+     */
     private int age;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
+    /**
+     * 用户手机号
+     */
+    private String mobile;
 }
